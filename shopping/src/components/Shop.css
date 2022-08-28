@@ -1,0 +1,35 @@
+.shopcontainer {
+    display: flex;
+    border: 6px solid pink;
+    min-height: 90vh;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+
+.header {
+    border: 2px solid black;
+    height: 10%;
+    display: flex;
+}
+.body {
+    border: 2px solid blue;
+    height: 80%;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.footer {
+    height: 10%;
+    border: 2px solid red;
+    display: flex;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+
+}

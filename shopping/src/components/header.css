@@ -1,0 +1,32 @@
+.headercontainer {
+    height: 10vh;
+    border: 4px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-one,
+.con-two {
+    border: 2px solid black;
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+li {
+    list-style: none;
+    
+
+    
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
