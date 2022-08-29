@@ -9,15 +9,14 @@ const Shop = (props) => {
 
 const [cardarray, setCardArray] = useState([1, 1, 1, 1, 1, 1, 1, 1, 1])
 const [popup, setPopup] = useState([])
+const [datasetter, setDataSetter] = useState()
 
-
-
-const tester = () => {
-    console.log(popup)
+let selectid = ''
+let eventattrib = ''
+const tester = (e) => {
     setPopup([1])
-    console.log(popup)
-
-
+    eventattrib = Number(e.target.getAttribute('data-two'))
+    setDataSetter(eventattrib)
 }
 
 
@@ -28,11 +27,11 @@ return (
         <div className="body">
         {cardarray.map((value, index) => (
                   
-                  <div key={index} >{<Card data={props.data}  click={tester} />}</div>
+                  <div key={index} >{<Card data={props.data}  click={tester} placement={index}  />}</div>
                   ))}
             {popup.map((value, index) => (
                   
-                  <div key={index} >{<Popup data={props.data} setdata={props.setdata} count={props.itemcount} setcount={props.setitemcount} />}</div>
+                  <div key={index} >{<Popup data={props.data} setdata={props.setdata} count={props.itemcount} setcount={props.setitemcount} datatwo={datasetter} cartdata={props.cartdata} setcartdata={props.setcartdata} />}</div>
                   ))}
 
         </div>

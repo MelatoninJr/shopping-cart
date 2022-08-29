@@ -1,0 +1,30 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-container {
+    border: 2px solid black;
+    width: 70%;
+    height: 100%;
+    margin-top: 2%;
+    overflow-y: scroll;
+}
+
+.heading {
+    border-bottom: 2px solid black;
+    height: 10%;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    
+}

@@ -2,6 +2,7 @@ import { render } from "@testing-library/react";
 import { Link } from 'react-router-dom'
 import React from "react";
 import './header.css'
+import bobalogo from './bubble-tea.png'
 
 const Header = (props) => {
 
@@ -13,7 +14,10 @@ const Header = (props) => {
 return (
     <div className='headercontainer'>
         <div className='con-one'>
-            Business
+            <img className="boba-icon" src={bobalogo} ></img>
+            <div className="business-name">Boba World</div>
+
+            
         </div>
         <div className='con-two'>
             <ul>
@@ -24,7 +28,7 @@ return (
                     <a href='/shop'>Shop</a>
                 </li>
                 <li>
-                    <a href='/'>Checkout</a>
+                    <a href='/checkout'>Checkout</a>
                 </li>
             </ul>
         </div>
