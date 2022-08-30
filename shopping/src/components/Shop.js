@@ -4,7 +4,7 @@ import './Shop.css'
 import Card from './displaycard'
 import { useState } from "react";
 import Popup from './popup'
-
+import Header from './header'
 const Shop = (props) => {
 
 const [cardarray, setCardArray] = useState([1, 1, 1, 1, 1, 1, 1, 1, 1])
@@ -22,6 +22,7 @@ const tester = (e) => {
 
 
 return (
+    
     <div className="shopcontainer">
         <div className="header"></div>
         <div className="body">
@@ -31,7 +32,7 @@ return (
                   ))}
             {popup.map((value, index) => (
                   
-                  <div key={index} >{<Popup data={props.data} setdata={props.setdata} count={props.itemcount} setcount={props.setitemcount} datatwo={datasetter} cartdata={props.cartdata} setcartdata={props.setcartdata} />}</div>
+                  <div key={index} >{<Popup data={props.data} setdata={props.setdata} count={props.itemcount} setcount={props.setitemcount} datatwo={datasetter} cartdata={props.cartdata} setcartdata={props.setcartdata}   setpoparray={setPopup} />}</div>
                   ))}
 
         </div>

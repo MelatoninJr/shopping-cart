@@ -101,23 +101,35 @@ const Popup = (props) => {
                 let holder = data[datatwo]
                 let holdertwo = uuidv4()
 
-                setcartdata(current => {
+                props.setcartdata(current => {
    
-               return {...current,  [holdertwo]:holder }
+               return  [...current, holder ]
                 
          })
-        
-        
-        
-        /*props.setdata(current => {
-            return  props.data.map((value, index) => {
-                  if(e.target.id === props.data[index].name) {
-                  return {...value, totalprice: props.data[index].useprice * props.data[index].quantity}
-                  }
+         props.setcount(0)
+         
+
+
+            props.setdata(current => {
+                return  props.data.map((value, index) => {
+                    if(datatwo === index) {
+                        return {...value, quantity: 0, totalprice: 0}  
+                    }
+                    else {return{...value}}
+                                   })
+                 return current
              })
-             return current
-         })*/
+            
+        
+        props.setpoparray([])
+        
+
     }
+
+    const buttonclicktwo = (e) => {
+        props.setpoparray([])
+    }
+
 
     return(
         <div className="pop-container">
@@ -139,7 +151,7 @@ const Popup = (props) => {
 
                 </div>
                 <div className="button-holder">
-                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15" ><path d="M4.5 4.5l6 6m-6 0l6-6m-3 10a7 7 0 110-14 7 7 0 010 14z" stroke="currentColor" class='close'></path></svg>
+                <svg onClick={buttonclicktwo} viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15" ><path d="M4.5 4.5l6 6m-6 0l6-6m-3 10a7 7 0 110-14 7 7 0 010 14z" stroke="currentColor" class='close'></path></svg>
                 </div>
 
             </div>
