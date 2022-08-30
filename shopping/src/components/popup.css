@@ -60,6 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .number {
@@ -79,6 +80,7 @@
     align-items: center;
     display: flex;
     justify-self: flex-end;
+    cursor: pointer;
 
 }
 
@@ -113,6 +115,7 @@
 svg {
     height: 70px;
     width: 70px;
+    cursor: pointer;
 }
 
 @-webkit-keyframes hvr-back-pulse {

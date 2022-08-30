@@ -22,7 +22,7 @@ return (
         </div>
         <div className='con-two'>
             <ul>
-                <Link to='/home'>
+                <Link to='/'>
                 Home
                 </Link>
                 <Link to='/shop'>
