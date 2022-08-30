@@ -1,9 +1,9 @@
 {
   "main.css": "/shopping-cart/static/css/main.0266c03b.chunk.css",
-  "main.js": "/shopping-cart/static/js/main.c32afcb1.chunk.js",
-  "main.js.map": "/shopping-cart/static/js/main.c32afcb1.chunk.js.map",
-  "static/js/1.382f8a18.chunk.js": "/shopping-cart/static/js/1.382f8a18.chunk.js",
-  "static/js/1.382f8a18.chunk.js.map": "/shopping-cart/static/js/1.382f8a18.chunk.js.map",
+  "main.js": "/shopping-cart/static/js/main.b2d1bf70.chunk.js",
+  "main.js.map": "/shopping-cart/static/js/main.b2d1bf70.chunk.js.map",
+  "static/js/1.4d11c9a4.chunk.js": "/shopping-cart/static/js/1.4d11c9a4.chunk.js",
+  "static/js/1.4d11c9a4.chunk.js.map": "/shopping-cart/static/js/1.4d11c9a4.chunk.js.map",
   "runtime~main.js": "/shopping-cart/static/js/runtime~main.b509cb4f.js",
   "runtime~main.js.map": "/shopping-cart/static/js/runtime~main.b509cb4f.js.map",
   "static/media/bobatwo.jpeg": "/shopping-cart/static/media/bobatwo.72fdaeda.jpeg",
@@ -20,6 +20,6 @@
   "static/media/cancel.png": "/shopping-cart/static/media/cancel.d4b24021.png",
   "static/css/main.0266c03b.chunk.css.map": "/shopping-cart/static/css/main.0266c03b.chunk.css.map",
   "index.html": "/shopping-cart/index.html",
-  "precache-manifest.f96b20846de03376571f4e965bf9b903.js": "/shopping-cart/precache-manifest.f96b20846de03376571f4e965bf9b903.js",
+  "precache-manifest.1ef3256c5c9313f3a90dd0f72a37ae02.js": "/shopping-cart/precache-manifest.1ef3256c5c9313f3a90dd0f72a37ae02.js",
   "service-worker.js": "/shopping-cart/service-worker.js"
 }
