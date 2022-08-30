@@ -36,7 +36,7 @@ const RouteSwitch = () => {
     <HashRouter basename='/'>
       <Routes>
       <Route path ='/'element={<Header />} >
-      <Route path='/' element={<Home cartdata={shoppingArray}  setcartdata={setShoppingArray}/>} ></Route>
+      <Route path='' element={<Home cartdata={shoppingArray}  setcartdata={setShoppingArray}/>} ></Route>
       <Route path="shop" element={<Shop data={products} setdata={setProducts} itemcount={itemcounter} setitemcount={setItemCounter}  cartdata={shoppingArray}  setcartdata={setShoppingArray} />} /> 
       <Route path='checkout' element={<Checkout cartdata={shoppingArray}  setcartdata={setShoppingArray} />} ></Route>
       </Route>

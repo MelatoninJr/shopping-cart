@@ -22,13 +22,13 @@ return (
         </div>
         <div className='con-two'>
             <ul>
-                <Link to='/'>
+                <Link to=''>
                 Home
                 </Link>
-                <Link to='/shop'>
+                <Link to='shop'>
                 Shop
                 </Link>
-                <Link to='/checkout'>
+                <Link to='checkout'>
                 Checkout
                 </Link>
             </ul>
